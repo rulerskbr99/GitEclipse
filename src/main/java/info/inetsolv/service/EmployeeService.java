@@ -27,7 +27,7 @@ public class EmployeeService {
 
 	    //throw exception
 		public Employee getEmployeeException() throws EmployeeServiceException {
-
+			System.out.println("Rakesh kumar");
 			throw new EmployeeServiceException();
 		}
 
